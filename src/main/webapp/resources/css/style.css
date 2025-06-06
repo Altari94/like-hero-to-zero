@@ -1,0 +1,25 @@
+/* Hintergrund der Gesamtseite */
+.bg-page {
+    background-color: #f04e4e; /* ROT */
+}
+
+/* Header */
+.bg-header {
+    background-color: #f7bcbc; /* HELLROSA */
+}
+
+/* Haupt-Container */
+.main-container {
+    background-color: #2f4fa2; /* DUNKELBLAU */;
+}
+
+/* Inhaltsbereich 1 */
+.content-section-1 {
+    background-color: #4caf50; /* GRÜN */
+    color: white;
+}
+
+/* Inhaltsbereich 2 */
+.content-section-2 {
+    background-color: #f9dd52; /* GELB */
+}
