@@ -1,0 +1,33 @@
+/* styles.css */
+
+body {
+    background-color: #ffeeba;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.site-header {
+    background-color: #f8d7da;
+    padding: 1rem 0;
+}
+
+.content-container {
+    background-color: #343a40;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin: auto;
+    max-width: 1440px;
+    min-width: 360px;
+}
+
+.country-selector-header {
+    background-color: #28a745;
+    padding: 1rem;
+    color: white;
+}
+
+.emissions-table-section {
+    background-color: #ffc107;
+    padding: 1.5rem;
+    min-height: 300px;
+}
