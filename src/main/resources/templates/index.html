@@ -36,10 +36,24 @@
     <div class="container-fluid">
         <div class="content-container">
 
-            <div class="row mb-3">
-                <div class="col-12 country-selector-header text-center">
-                    <h2>CO₂-Ausstoß nach Land</h2>
-                    <!-- Hier später Dropdown -->
+            <!-- Header 2: Titel, Dropdown & Trennlinie (links ausgerichtet, weißer Bereich) -->
+            <div class="row mb-4">
+                <div class="col-12 p-4 bg-white rounded country-selector-block">
+                    <h2 class="mb-3">Hier findest du den aktuellen CO₂-Ausstoß deines Landes</h2>
+                    <select class="form-select form-select-lg" style="max-width: 300px;">
+                        <option selected>Deutschland</option>
+                        <option>USA</option>
+                        <option>China</option>
+                        <option>Indien</option>
+                        <option>Brasilien</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Trennlinie -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-10">
+                    <hr class="styled-separator" />
                 </div>
             </div>
 
