@@ -6,10 +6,7 @@ body {
     margin: 0;
 }
 
-.site-header {
-    background-color: #f8d7da;
-    padding: 1rem 0;
-}
+
 
 .content-container {
     background-color: #343a40;
@@ -30,4 +27,16 @@ body {
     background-color: #ffc107;
     padding: 1.5rem;
     min-height: 300px;
+}
+
+.site-header {
+    background-color: #e3f2fd; /* sanftes Hellblau wie im Wireframe */
+}
+
+.site-header a {
+    color: #0d6efd;
+}
+
+.site-header small {
+    font-size: 0.85rem;
 }
