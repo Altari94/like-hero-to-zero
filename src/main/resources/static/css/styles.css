@@ -8,6 +8,14 @@ body {
 
 
 
+
+
+.emissions-table-container {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
 .content-container {
     background-color: #ffffff;
     padding: 2rem;
@@ -15,6 +23,7 @@ body {
     margin: auto;
     max-width: 1440px;
     min-width: 360px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* sanfter Schatten */
 }
 
 .country-selector-header {
